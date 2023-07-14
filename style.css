@@ -3,6 +3,15 @@
   src: url('SuisseIntl.ttf') format('truetype');
 }
 
+@media (max-width: 298px) {
+  .subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -57,7 +66,7 @@ input[type=text] {
   outline: none;
   border: none;
   border-bottom: 1px solid blue;
-  
+  margin-bottom: 0.5rem;
 }
 
 input::placeholder {
